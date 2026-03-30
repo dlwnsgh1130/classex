@@ -17,7 +17,7 @@ public class ShoppingCart {
     // 추가
     public void addItem(ShoppingProduct sp, int qty){
         itemList.add(new CartItem(sp,qty));
-        System.out.println(sp.e"담았습니다.");
+        System.out.println(sp.getName() + " " + qty + "개 담았습니다.");
     }
     // 삭제
     public void removeItem(){
