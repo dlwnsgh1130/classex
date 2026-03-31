@@ -13,6 +13,6 @@ public class ConEx1 {
 		
 		output = (num % 2 == 0) ? "짝수" : "홀수";
 		
-		System.out.println("입력한 숫자 " + num + "은 " + output + "입니다.");
+		System.out.println("입력한 숫dl자 " + num + "은 " + output + "입니다.");
 	}
 }
