@@ -34,7 +34,7 @@ public class CartItem {
     @Override
     public String toString(){
         return String.format("%s | 단가: %, d x %d개 = %,d원",
-                sp.getName(), sp.getPrice(), getSubtotal());
+                sp.getName(), sp.getPrice(), qty, getSubtotal());
     }
 }
 

@@ -15,8 +15,10 @@ public class ShoppingMain {
         cart.addItem(banana, 3);
         cart.addItem(pear, 12);
 
-        cart.removeItem("감수광");
+
         cart.removeItem("탱크보이");
+        cart.removeItem("감수광");
+
     }
 
 }
