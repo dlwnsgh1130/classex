@@ -6,31 +6,27 @@ public class Food {
     private int price;
     private int cal;
 
+    // 생성자
     public Food(String name, int price, int cal) {
         this.name = name;
         this.price = price;
         this.cal = cal;
     }
-
     public String getName() {
         return name;
     }
-
     public int getPrice() {
         return price;
     }
-
     public int getCal() {
         return cal;
     }
 
-    //order()
-    public void order(){
-        System.out.println(name + " 의 가격은 " + price + "원 이고, 칼로리는 " + cal +"kcal 입니다");
+    public void order() {
+        System.out.println(name + " 주문 완료, " + price + "원");
     }
 
-    //eat()
-    public void eat(){
-        System.out.println("개 당 " + price + "원의" + name +"을 먹습니다");
+    public void eat() {
+        System.out.println(name + " 칼로리: " + cal);
     }
 }
