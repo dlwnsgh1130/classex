@@ -8,12 +8,14 @@ public class Health extends Insu {
     @Override
     public int calculateRate(int age) {
         if(age >= 60) {
+            return (int)(getMonthlyRate() * 1.5);
             // 50% 할증
         } else if(age >= 40) {
+            return (int)(getMonthlyRate() * 1.25);
             // 25% 할증
         }
 
-        return getMonthlyRate();
+        return getMonthlyRate();//그 외 기본 보험료
 
     }
 
